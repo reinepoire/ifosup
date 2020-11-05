@@ -1,0 +1,517 @@
+@import url("https://fonts.googleapis.com/css?family=Cantarell|Fjalla+One");
+body {
+  font-family: "Cantarell", sans-serif;
+  overflow-x: hidden;
+}
+
+/*  MOBILE ET TABLETTES */
+@media screen and (max-width: 768px) {
+    main  div.container > div {
+        display: flex!important;
+        flex-direction: column!important;
+    
+}
+    main  div.container div div {
+        margin-top: 1em;
+    }
+    
+    section div.container > div {
+        display: flex!important;
+        flex-direction: column!important;
+    }
+    
+    section div.container div div {
+        margin-top: 1em;
+    }
+}
+
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Fjalla One", sans-serif;
+}
+
+h2, h3 {
+  margin-top: 1.5em;    
+}
+
+#miniMenu {
+  padding: 0; }
+  #miniMenu a {
+    color: white; }
+  #miniMenu a:hover, #miniMenu a:focus {
+    color: #E8C204; }
+hr {
+  width: 60px;
+}
+
+#home {
+  min-height: 80vh;
+  padding: 25% 0;
+  background-image: url(../img/header2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+header section {
+    margin-top: 5.75em;
+}
+#StudentImg {
+    background-image: url(../img/students-Ifosup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+section.message {
+    background-image: url(../img/header2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%; 
+    min-height: 30vh;
+}
+
+#CarteFormation1 {
+    background-image: url(../img/secondaire.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#CarteFormation2 {
+    background-image: url(../img/Superieur.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#CarteFormation3 {
+    background-image: url(../img/Langues.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#CarteFormation4 {
+    background-image: url(../img/ModulesInfo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#CarteFormation5 {
+    background-image: url(../img/ServiceEntreprise.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*PAGE FORMATION*/
+div.formations {
+    min-height: 40vh;
+    width: 100%;
+    background-image: url(../img/formations.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*PAGE FORMATION*/
+
+
+/*PAGE SECONDAIRE*/
+div.secondaire {
+    min-height: 40vh;
+    width: 100%;
+    background-image: url(../img/etudes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+/*PAGE SECONDAIRE*/
+
+
+/*PAGE TECH EN COMPTA*/
+div.TechCompta {
+    min-height: 40vh;
+    width: 100%;
+    background-image: url(../img/TechCompta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+/*PAGE TECH EN COMPTA*/
+
+/*PAGE GESTION */
+div.gestion {
+    min-height: 40vh;
+    width: 100%;
+    background-image: url(../img/gestion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom; 
+}
+/*PAGE GESTION*/
+
+/*PAGE TECH EN INFORMATIQUE*/
+div.TechInfo {
+    min-height: 40vh;
+    width: 100%;
+    background-image: url(../img/TechInfo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*PAGE TECH EN INFORMATIQUE*/
+
+/*PAGE TECH ELECTRICIEN*/
+div.TechElec {
+    min-height: 40vh;
+    width: 100%;
+    background-image: url(../img/TechElec.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+/*PAGE TECH ELECTRICIEN*/
+
+
+
+/*PAGE SUPERIEUR*/
+div.superieur {
+    min-height: 40vh;
+    width: 100%;
+    background-image: url(../img/EtudesSup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+/*PAGE SUPERIEUR*/
+
+/*PAGE BAC COMPTA*/
+div.BacCompta {
+    min-height: 40vh;
+    width: 100%;
+    background-image: url(../img/BacCompta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*PAGE BAC COMPTA*/
+
+/*PAGE BAC INFO*/
+div.BacInfo {
+    min-height: 40vh;
+    width: 100%;
+    background-image: url(../img/BacInfo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*PAGE BAC INFO*/
+
+/*PAGE BAC MARKETING*/
+div.BacMarketing {
+    min-height: 40vh;
+    width: 100%;
+    background-image: url(../img/BacMarketing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*PAGE BAC MARKETING*/
+
+/*PAGE BES WEBDESIGN*/
+div.BesWebdesign {
+    min-height: 40vh;
+    width: 100%;
+    background-image: url(../img/webdesign.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+/*PAGE BES WEBDESIGN*/
+
+/*PAGE BES WEBDEVELOPER*/
+div.BesWebdeveloper {
+    min-height: 40vh;
+    width: 100%;
+    background-image: url(../img/webdeveloper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*PAGE BES WEBDEVELOPER*/
+
+/*PAGE LANGUES*/
+div.langues {
+    min-height: 40vh;
+    width: 100%;
+    background-image: url(../img/languages.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+/*PAGE LANGUES*/
+
+/*PAGE INFORMATIQUES*/
+
+div.perfection {
+    min-height: 40vh;
+    width: 100%;
+    background-image: url(../img/perfection.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div.decouverte {
+    min-height: 40vh;
+    width: 100%;
+    background-image: url(../img/decouverte.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*SERVICES AUX ENTREPRISES*/
+div.ServiceEntreprise {
+    min-height: 40vh;
+    width: 100%;
+    background-image: url(../img/entreprise.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*SERVICES AUX ENTREPRISES*/
+
+/*PAGE INSCRIPTION*/
+div.inscriptions {
+    min-height: 40vh;
+    width: 100%;
+    background-image: url(../img/inscriptions.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;    
+}
+
+/*PAGE CONGES*/
+div.conges {
+    min-height: 40vh;
+    width: 100%;
+    background-image: url(../img/conges.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;    
+}
+
+div.roi {
+    min-height: 40vh;
+    width: 100%;
+    background-image: url(../img/roi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+div.valorisation {
+    min-height: 40vh;
+    width: 100%;
+    background-image: url(../img/valorisation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+div.qualite {
+    min-height: 40vh;
+    width: 100%;
+    background-image: url(../img/PolQualite.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+div.EnsInclusif {
+    min-height: 40vh;
+    width: 100%;
+    background-image: url(../img/EnsInclusif.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+div.liens {
+    min-height: 40vh;
+    width: 100%;
+    background-image: url(../img/liens.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div.horaires {
+    min-height: 40vh;
+    width: 100%;
+    background-image: url(../img/horaires.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*PAGE CONTACT*/
+iframe {
+    width: 100%;
+    min-height: 40vh; }
+
+section#contact div.col-md-12 {
+    border-bottom: 5px solid #95C4E6;
+}
+
+/* FANCY COLLAPSE PANEL STYLES */
+.fancy-collapse-panel .panel-default > .panel-heading {
+padding: 0;
+
+}
+.panel-body p i {
+    padding-left: 0.7em;
+}
+.fancy-collapse-panel .panel-heading a {
+padding: 0.5em;
+display: inline-block;
+min-width: 100%;
+border: 2px solid #95C4E6;
+border-radius: 2px;
+color: #95C4E6;
+position: relative;
+text-decoration: none;
+}
+.fancy-collapse-panel .panel-heading a:after {
+font-family: "FontAwesome";
+content: "\f106";
+position: absolute;
+right: 20px;
+top: 50%;
+margin-top: -10px;
+}
+
+.fancy-collapse-panel .panel-heading a.collapsed:after {
+content: "\f107";
+}
+
+
+
+
+/*DETAILS PUREMENT ESTHETIQUES*/
+/*BORDER DES PREMIERES SECTIONS*/
+div.perfection, div.decouverte, div.inscriptions, div.liens  {
+    border-bottom: 5px solid #91AC2E;
+}
+div.formations, div.langues, div.roi, div.valorisation, div.qualite, div.EnsInclusif  {
+    border-bottom: 5px solid #95C4E6;  
+}
+div.secondaire, div.TechCompta, div.gestion, div.TechInfo, div.TechElec, div.ServiceEntreprise, div.conges, div.horaires {
+    border-bottom: 5px solid #E8C204;
+}
+div.superieur, div.BacCompta, div.BacInfo, div.BacMarketing, div.BesWebdesign, div.BesWebdeveloper {
+    border-bottom: 5px solid #305596;
+}
+
+/*BORDER DE QUELQUES PARAGRAPHES*/
+.yellow-border {
+    border-left: 5px solid #E8C204;
+} .navy-border {
+    border-left: 5px solid #305596;
+} .blue-border {
+    border-left: 5px solid #95C4E6;
+} .green-border {
+    border-left: 5px solid #91AC2E;
+}
+
+/*FLECHE DU BREADCRUMBS*/
+ol.breadcrumb li.arrow-yellow{
+    color: #E8C204;
+} ol.breadcrumb li.arrow-navy{
+    color: #305596;
+} ol.breadcrumb li.arrow-blue{
+    color: #95C4E6;
+} ol.breadcrumb li.arrow-green{
+    color: #91AC2E;
+}
+
+/*LIENS EN COULEUR*/
+.t-yellow {
+    color: #E8C204;
+} .t-navy{
+    color: #305596;
+} .t-blue{
+    color: #95C4E6;
+} .t-green{
+    color: #91AC2E;
+} 
+
+/*CARDS HEADERS*/
+.ch-yellow {
+    background-color: rgba(232,194,4, 0.5)!important;
+}.ch-navy {
+    background-color: rgba(48,85,150, 0.5)!important;
+}.ch-blue {
+    background-color: rgba(149,196,230, 0.5)!important;
+}.ch-green {
+    background-color: rgba(145,172,46, 0.5)!important;
+}
+
+
+/*LIENS HOVER*/
+a.grey-text.t-yellow:hover,
+a.grey-text.t-yellow:focus {
+    color: #E8C204!important;
+}
+a.grey-text.t-navy:hover, 
+a.grey-text.t-navy:focus {
+    color: #305596!important;
+}
+a.grey-text.t-blue:hover,
+a.grey-text.t-blue:focus {
+    color: #95C4E6!important;
+}
+a.grey-text.t-green:hover,
+a.grey-text.t-green:focus{
+    color: #91AC2E!important;
+}
+
+/*Boutons*/
+.btn-blue {
+    background-color:#95C4E6!important;
+    color: #fff!important;
+}.btn-navy {
+    background-color: #305596!important;
+    color: #fff!important;
+}
+
+.sticky-top {
+    padding-top: 5.75em;
+}
+
+
+/*COULEURS FOOTER ET HEADER*/
+html.nav-yellow .navbar, html.nav-yellow footer {
+    background-color: rgba(232,194,4, 0.6)!important;
+}html.nav-navy .navbar, html.nav-navy footer {
+   background-color: rgba(48,85,150, 0.6)!important; 
+}html.nav-blue .navbar, html.nav-blue footer {
+    background-color: rgba(149,196,230, 0.6)!important;
+}html.nav-green .navbar, html.nav-green footer {
+    background-color: rgba(145,172,46, 0.6)!important;
+}
+
+footer > *, footer a {
+    color: #3d3d3d!important;
+}
+.nav-transparent {
+    background-color: rgba(255,255,255,0.6);
+}
+
+
+.rgba-navy {  
+    background-color: rgba(48,85,150, 0.7);
+}
+
+
